@@ -1,0 +1,117 @@
+footer{
+    width: 100%;
+    height: 490px;
+    background-color: #AABAD0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_top{
+    width: 100%;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.footer_top_con{
+    width: 80%;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_top_con p:nth-of-type(1){
+    font-size: 69px;
+    margin-bottom: 25px;
+}
+.footer_top_con p:nth-of-type(2){
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer_bot{
+    width: 100%;
+    height: 384px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_bot_con{
+    width: 80%;
+    height: 384px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_bot_left{
+    width: 65%;
+    height: 384px;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.footer_bot_left_con{
+    width: 90%;
+
+}
+.footer_bot_left_lists{
+    width: 100%;
+    height: 143px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 16px;
+}
+.footer_list p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer_list li{
+    margin-top: 12px;
+    list-style: none;
+}
+.footer_list li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.footer_bot_left_mid{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.footer_bot_left_mid div{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 6px;
+}
+.footer_bot_left_mid div img{
+    margin-right: 6px;
+}
+.footer_bot_left_bot p{
+    font-size: 12px;
+    height: 20px;
+}
+.footer_bot_left_bot p:nth-of-type(2){
+    width: 50%;
+}
+.footer_bot_left_bot a{
+    color: black;
+}
+.footer_bot_right{
+    width: 35%;
+    height: 100%;
+}
+.footer_bot_right_top{
+    width: 60%;
+    height: 50px;
+    padding: 40px;
+    font-size: 18px;
+    border-bottom: 2px solid black;
+}
