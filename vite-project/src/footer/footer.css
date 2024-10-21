@@ -38,7 +38,7 @@ footer{
     align-items: center;
 }
 .footer_bot_con{
-    width: 80%;
+    width: 100%;
     height: 384px;
     display: flex;
     justify-content: center;
@@ -50,12 +50,12 @@ footer{
     border-right: 2px solid black;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: end;
     flex-direction: column;
 }
 .footer_bot_left_con{
-    width: 90%;
-
+    width: 75%;
+    margin-right: 90px;
 }
 .footer_bot_left_lists{
     width: 100%;
@@ -109,9 +109,35 @@ footer{
     height: 100%;
 }
 .footer_bot_right_top{
-    width: 60%;
+    width: 100% - 40px;
     height: 50px;
     padding: 40px;
     font-size: 18px;
     border-bottom: 2px solid black;
+}
+.footer_bot_right_top_con{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.footer_bot_right_bot{
+    width: 100% - 40px;
+    height: 166px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_bot_right_bot_left{
+    font-size: 18px;
+}
+.footer_bot_right_bot_left p{
+    margin-bottom: 10px;
+}
+.footer_bot_right_bot_right{
+    position: relative;
+    right: 100px;
+}
+.footer_bot_right_bot_right img:nth-of-type(2){
+    margin-left: 20px;
 }

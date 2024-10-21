@@ -1,3 +1,24 @@
+section{
+    background-color: white;
+}
+.SwiperCon{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.swiper-slide{
+    width: 100% !important;
+    height: 100vh !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.slideOne{
+    display: flex !important;
+    justify-content: start !important;
+    align-items: start !important;
+}
 .sect_one{
     width: 100%;
     height: 620px;
@@ -39,8 +60,6 @@
     justify-content: start;
     align-items: center;
     flex-direction: column;
-    margin-top: 160px;
-    margin-bottom: 200px;
 }
 .sect_two_top{
     width: 100%;
@@ -146,8 +165,6 @@
     justify-content: start;
     align-items: center;
     flex-direction: column;
-    margin-top: 160px;
-    margin-bottom: 200px;
 }
 .sect_four_top{
     width: 100%;
@@ -208,7 +225,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 160px;
 }
 .sect_five_left{
     width: 50%;
@@ -244,7 +260,6 @@
     justify-content: start;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 200px;
 }
 .sect_six_top{
     width: 100%;
@@ -293,7 +308,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 150px;
 }
 .sect_seven_con{
     width: 80%;

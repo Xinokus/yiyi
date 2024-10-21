@@ -31,7 +31,7 @@ header{
     text-decoration: none;
     display: flex;
     margin-top: 20px;
-
+    margin-left: 20px;
 }
 .header_link img{
     margin-left: 9px;

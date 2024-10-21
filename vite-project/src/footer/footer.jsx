@@ -58,7 +58,9 @@ export default function Footer(){
                             </div>
                             <div className='footer_bot_right'>
                                 <div className='footer_bot_right_top'>
-                                    <p>No spam, just pure inspiration and good news</p>
+                                    <div className='footer_bot_right_top_con'>
+                                        <p>No spam, just pure inspiration and good news</p>
+                                    </div>
                                 </div>
                                 <div className='footer_bot_right_bot'>
                                     <div className='footer_bot_right_bot_left'>
@@ -67,8 +69,8 @@ export default function Footer(){
                                         <p>hello@yesforeyes.com</p>
                                     </div>
                                     <div className='footer_bot_right_bot_right'>
-                                        <img src={Facebook} alt="" />
                                         <img src={Instagram} alt="" />
+                                        <img src={Facebook} alt="" />
                                     </div>
                                 </div>
                             </div>

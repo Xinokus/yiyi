@@ -1,5 +1,12 @@
 import './main.css'
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-cube';
+import 'swiper/css/pagination';
+import { EffectCube, Pagination, Mousewheel } from 'swiper/modules';
+
+
 import Header from '../header/header'
 import Footer from '../footer/footer'
 
@@ -17,8 +24,18 @@ import SectThreeIMG from '../assets/sectThreeimg.png'
 export default function Main(){
     return(
         <>
-            <Header/>
-            <main>
+        <div className='SwiperCon'>
+            <Swiper
+            effect={'cube'}
+            grabCursor={true}
+            mousewheel={true}
+            modules={[EffectCube, Pagination, Mousewheel]}
+            className="mySwiper"
+            >
+                <SwiperSlide className='slideOne'>
+                    <Header/>
+                </SwiperSlide>
+                <SwiperSlide>
                 <section className='sect_one'>
                     <div className='sect_one_left'>
                         <a href="">SHOP WOMEN</a>
@@ -27,6 +44,8 @@ export default function Main(){
                         <a href="">SHOP MEN</a>
                     </div>
                 </section>
+                </SwiperSlide>
+                <SwiperSlide>
                 <section className='sect_two'>
                     <div className='sect_two_top'>
                         <div className='sect_two_top_con'>
@@ -55,6 +74,8 @@ export default function Main(){
                         </div>
                     </div>
                 </section>
+                </SwiperSlide>
+                <SwiperSlide>
                 <section className='sect_three'>
                     <div className='sect_three_left'>
                         <img src={SectThreeIMG} alt="" />
@@ -70,6 +91,8 @@ export default function Main(){
                         </div>
                     </div>
                 </section>
+                </SwiperSlide>
+                <SwiperSlide>
                 <section className='sect_four'>
                     <div className='sect_four_top'>
                         <div className='sect_four_top_con'>
@@ -98,6 +121,8 @@ export default function Main(){
                         </div>
                     </div>
                 </section>
+                </SwiperSlide>
+                <SwiperSlide>
                 <section className='sect_five'>
                     <div className='sect_five_left'>
                         <a href="">FOR SIGHT</a>
@@ -106,6 +131,8 @@ export default function Main(){
                         
                     </div>
                 </section>
+                </SwiperSlide>
+                <SwiperSlide>
                 <section className='sect_six'>
                     <div className='sect_six_top'>
                         <div className='sect_six_top_con'>
@@ -118,6 +145,8 @@ export default function Main(){
                         <p>ModernLegacyTIJN</p>
                     </div>
                 </section>
+                </SwiperSlide>
+                <SwiperSlide>
                 <section className='sect_seven'>
                     <div className='sect_seven_con'>
                         <div className='sect_seven_left'>
@@ -130,8 +159,12 @@ export default function Main(){
                         </div>
                     </div>
                 </section>
+                </SwiperSlide>
+                <SwiperSlide>
                 <Footer/>
-            </main>
+                </SwiperSlide>
+            </Swiper>
+            </div>
         </>
     )
 }
